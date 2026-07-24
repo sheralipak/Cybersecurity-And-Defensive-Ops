@@ -1,64 +1,62 @@
-# 🛡️ Cybersecurity & Defensive Operations Lab
+# ⚙️ DevOps, DevSecOps & Security Engineering Proving Ground
 
-Welcome to my central cybersecurity engineering and defensive operations repository. This workspace serves as a dedicated technical proving ground designed to consolidate advanced network simulations, memory-safe backend tools, host system simulators, and machine learning threat intelligence frameworks.
+Welcome to my central engineering repository. This workspace serves as a dedicated technical proving ground designed to consolidate **DevOps practices**, **DevSecOps automation**, **cloud/container security research**, and **hardened low-level software engineering**.
 
-The primary objective of this repository is to showcase practical, hands-on competency across core security domains, emphasizing structured infrastructure defense, modular logic isolation, host-level forensics, and security-by-design methodologies.
-
----
-
-## 🛡️ Strategic Cybersecurity & SOC Alignment
-
-While these modules span diverse implementation layers, the underlying blueprints map directly to critical **Security Operations Center (SOC) Engineering, Threat Hunting, and Application Security (AppSec)** domains:
-
-* **Perimeter Defense & Segmentation:** Designing production-grade multi-departmental network grids running conditional access control lists (ACLs), role-based asset restrictions, and stateful firewalls.
-* **Application Security (AppSec):** Implementing rigorous cryptographic data masking at the transmission boundary, building secure data-isolation engines, and auditing user privilege access limits to prevent logical injection exploits.
-* **Host Internals & Forensics:** Modeling operating system process trees and process control blocks (PCBs) to track system vulnerabilities, runtime privilege elevation, or execution indicators monitored during threat hunting loops.
-* **Advanced Threat Intelligence:** Reviewing machine learning detection vectors, evaluating continuous statistical anomaly baselines, and optimizing incident response playbooks for enterprise resilience.
+The primary objective of this repository is to showcase practical, hands-on competency across modern infrastructure lifecycle management—emphasizing shift-left security testing, resilient software architecture, system telemetry, and infrastructure-by-design methodologies.
 
 ---
 
-## 📂 Defensive Engineering Blueprints & Technical Scopes
+## 🛡️ Strategic Alignment: DevOps & DevSecOps Engineering
 
-### 🌐 1. Enterprise Network Simulation
-* **Perimeter Defense Matrix:** An industry-level network infrastructure designed across four distinct corporate departments: Manufacturing, Supply Chain, IT, and HR.
-* **Defensive Proving Ground:** Enforces rigorous network micro-segmentation using Virtual Local Area Networks (VLANs) to completely mitigate lateral threat movement. Deploys perimeter defenses via hardware firewall rules and custom Access Control Lists (ACLs), establishes role-based access control (RBAC) on utility servers (DHCP, FTP, Web), and enables secure Virtual Private Networks (VPN) for remote workforce access. Traffic streams can be captured and audited via Wireshark to isolate anomalies, while Quality of Service (QoS) configurations prioritize critical traffic.
+While these modules span diverse implementation layers, the underlying blueprints map directly to production **DevOps, Infrastructure & Platform Engineering, and DevSecOps** domains:
 
-### 🔐 2. Industrial Message Server
-* **Cryptographic Data Masking:** A secure console-based message broker architecture designed to safely ingest, store, and retrieve organizational communication logs.
-* **Defensive Proving Ground:** Built in C++ utilizing the native Windows Console API. It leverages an in-memory Standard Template Library (STL) vector setup for lightweight storage while randomizing data identifiers through a structured ID generation engine spanning keys 1-256. Enforces strict administrative privilege boundaries by masking database tables behind an admin-only "list all" global view, which is secured by hidden character password verification layers.
+* **Infrastructure & Network Automation:** Designing production-grade, multi-departmental network grids with micro-segmentation (VLANs), stateful access control lists (ACLs), and automated access policies to isolate lateral threat movement.
+* **Secure Software & AppSec Engineering:** Building memory-safe backend services, leveraging compile-time type safety in Go and C++, and implementing cryptographic masking engines at data boundaries.
+* **Telemetry, Observability & Forensics:** Modeling system process control blocks (PCBs) and low-level runtime execution to support real-time metrics, host monitoring, and automated incident response pipelines.
+* **Shift-Left Security & Automation:** Auditing Infrastructure-as-Code (IaC) templates, automating container runtime threat monitoring, and integrating security guardrails early into deployment pipelines.
 
-### 📦 3. Secure CRM Engine
-* **Memory-Safe Code Paradigms:** A robust server-side Client Relationship Management (CRM) tracking framework custom-engineered for absolute data privacy and high-performance throughput.
-* **Defensive Proving Ground:** Built using Golang to take advantage of its native compile-time type safety and robust memory-safe runtime execution properties. The platform uses structural data paradigms to ensure client profile records, internal fields, and transactional assets are systematically shielded against memory leak vectors or access disclosure vulnerabilitie.
+---
 
-### 🧠 4. OS Kernel Forensics Simulator
-* **Host Runtime Threat Forensics:** A kernel-level operating system simulator producing highly structured diagnostic views for quick, real-time inspection.
-* **Defensive Proving Ground:** Developed in C++ to model fundamental host execution parameters, handling process creation loops and lifecycle state transitions. Tracks vital Process Control Block (PCB) telemetry—including unique Process IDs (PIDs) hierarchy, priority levels, memory info metrics, and I/O attributes. This foundational understanding of process trees maps directly to threat hunting within Endpoint Detection and Response (EDR) pipelines, providing the prerequisite knowledge needed to track malicious process hollowing or unauthorized privilege escalation.
+## 📁 Engineering Blueprints & Technical Scopes
 
-### 🔬 5. Advanced Cybersecurity Research Portfolio
-* **Threat Modeling & Anomaly Auditing:** A compilation of specialized academic research analyzing emerging cloud, network, and architecture threat landscapes.
-* **Defensive Proving Ground:** Investigates proactive mitigation models and compliance engineering options across multiple high-risk technical domains:
-    * *AI-Powered DDoS Attack Detection in Software-Defined Networks (SDN)*: Investigates machine learning automation within SDN controllers to rapidly detect and drop distributed network volumetric attacks.
-    * *ML Framework for Real-Time Cryptojacking Detection in Cloud Containers*: Evaluates automated behavioral profiling frameworks designed to spot unauthorized resource harvesting within isolated runtime containers.
-    * *Comparative Analysis of Automated Security Scanning Tools for Infrastructure-as-Code (IaC) Templates*: Audits automated static analysis tools to identify configuration defects and vulnerabilities within cloud deployment blueprints before provisioning.
-    * *A Systematic Literature Review on Incident Response and Resilience in Information Security*: A comprehensive study mapping out proactive risk management frameworks, compliance legal issues, and disaster recovery playbooks.
+### 🌐 1. Enterprise Network Architecture & Segmentation
+* **Infrastructure Matrix:** An enterprise-scale network infrastructure engineered across four isolated organizational domains: Manufacturing, Supply Chain, IT, and HR.
+* **DevOps & Security Execution:** Enforces network micro-segmentation using VLANs and stateful firewalls to prevent lateral movement. Deploys Role-Based Access Control (RBAC) on core services (DHCP, FTP, Web) with QoS optimization for high-availability traffic flows.
+
+### 🔒 2. Industrial Encrypted Messaging Server
+* **Cryptographic Data Broker:** A secure, high-throughput console messaging service designed for safe storage, ingestion, and retrieval of operational logs.
+* **DevSecOps Execution:** Built in C++ leveraging native system APIs and vector-based in-memory architecture. Enforces strict administrative boundaries, ID randomization mechanisms, and protected access routines to guarantee data privacy.
+
+### 📦 3. Memory-Safe Microservice Core (Secure CRM Engine)
+* **High-Performance Architecture:** A server-side Client Relationship Management engine custom-engineered for maximum data privacy and low-latency throughput.
+* **DevSecOps Execution:** Developed in **Go (Golang)** to capitalize on strict compile-time type safety and memory-safe concurrency primitives. Structures data pipelines to systematically eliminate memory leaks, resource exhaustion, and unauthorized data disclosure.
+
+### 🧠 4. OS Kernel Forensics & Runtime Simulator
+* **System Telemetry & Monitoring:** A kernel-level execution simulator producing structured runtime telemetry for host process visibility and diagnostic auditing.
+* **DevOps & Cyber Execution:** Built in C++ to model process creation loops, parent-child process tree hierarchies, and Process Control Block (PCB) state transitions. Designed to feed host metrics into Endpoint Detection and Response (EDR) and continuous observability tools.
+
+### 🔬 5. Cloud Security & DevSecOps Research Portfolio
+* **IaC & Container Security:** Applied academic research targeting automated pipeline checks and cloud container runtime protection:
+  * *Automated IaC Security Auditing:* Comparative analysis of static analysis security scanning tools (SAST) for Infrastructure-as-Code (IaC) blueprints to fix misconfigurations prior to deployment.
+  * *Container Runtime Security:* Machine Learning framework evaluating behavioral anomalies for real-time cryptojacking and unauthorized execution inside isolated cloud containers.
+  * *SDN Threat Mitigation:* AI-powered automated DDoS detection and packet-dropping engines within Software-Defined Network controllers.
+  * *Resilience & Incident Management:* Comprehensive literature review on proactive risk frameworks, disaster recovery playbooks, and security compliance.
 
 ---
 
 ## 🛠️ Specialized Technical Toolbelt
 
-* **📊 Security Operations:** SIEM Concepts, Threat Monitoring, Log Analysis, Incident Response, Network Traffic Baseline Auditing.
-* **⚙️ Platforms & Tools:** Wireshark Packet Analyzer, Cisco Packet Tracer, Kali Linux, Enterprise Hardware Firewalls, Windows Console API.
-* **💻 Languages & Compilers:** C++, Go (Golang), Embedded C, Python, 8051 Assembly Language.
+* **DevOps & Platform Tools:** Linux (Ubuntu, Kali), Infrastructure-as-Code (IaC) Validation, System Architecture, Cisco Network Engineering, WireShark.
+* **DevSecOps & Cyber Security:** Automated Static Analysis (IaC Scanning), Cryptographic Masking, Network Micro-Segmentation, SIEM Concepts, EDR/Kernel Telemetry.
+* **Languages & Scripting:** Python, Go (Golang), C++, Bash Scripting, Embedded C, Assembly.
 
 ---
 
-## 🎓 Education & Professional Certifications
+## 🎓 Education & Certifications
 
-* **🎓 MS in Cybersecurity** — FAST National University (NUCES), Lahore *(In Progress)*
-* **🎓 BS in Computer Science** — Riphah International University, Lahore
-* **📜 Professional Certification:** Managing Network Security — Coursera
-* **📜 Professional Certification:** Linux Processes & System Resource Management — Coursera
-* **📜 Professional Certification:** AWS Cloud Practitioner Essentials — AWS/Coursera
-* **📜 Professional Certification:** Cloud Computing Infrastructure & Services — Coursera
-* and more
+* **MS in Cybersecurity** — FAST National University (NUCES), Lahore *(In Progress)*
+* **BS in Computer Science** — Riphah International University, Lahore
+* **AWS Cloud Practitioner Essentials** — AWS / Coursera
+* **Cloud Computing Infrastructure & Services** — Coursera
+* **Linux Processes & System Resource Management** — Coursera
+* **Managing Network Security** — Coursera
